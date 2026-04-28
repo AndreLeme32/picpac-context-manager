@@ -77,7 +77,7 @@ app.use((req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(Context Manager v2 running on http://localhost:);
-  console.log(Agents path: );
-  console.log(Health check: http://localhost:/health);
+  console.log(`Context Manager v2 running on http://localhost:${port}`);
+console.log(`Agents path: ${agentsPath}`);
+console.log(`Health check: http://localhost:${port}/health`);
 });
