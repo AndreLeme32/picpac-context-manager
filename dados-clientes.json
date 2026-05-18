@@ -1,0 +1,70 @@
+Vou criar o arquivo `dados-clientes.json` com dados de dois clientes fictícios e enviá-lo ao Context Manager.
+
+<sendChangeToContextManager>
+<filePath>dados-clientes.json</filePath>
+<fileContent>{
+  "clientes": [
+    {
+      "id": "CLI-001",
+      "nome": "Pedro Almeida Silva",
+      "cpf": "111.222.333-44",
+      "email": "pedro.almeida@exemplo.com",
+      "telefone": "(11) 91234-5678",
+      "endereco": {
+        "rua": "Rua dos Pinheiros",
+        "numero": "250",
+        "bairro": "Vila Nova",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "04567-890"
+      },
+      "dataCadastro": "2024-01-14",
+      "status": "ativo"
+    },
+    {
+      "id": "CLI-002",
+      "nome": "Ana Carolina Ferreira",
+      "cpf": "555.666.777-88",
+      "email": "ana.ferreira@exemplo.com",
+      "telefone": "(31) 99876-5432",
+      "endereco": {
+        "rua": "Avenida Brasil",
+        "numero": "1500",
+        "bairro": "Funcionários",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30140-000"
+      },
+      "dataCadastro": "2024-01-15",
+      "status": "ativo"
+    }
+  ]
+}</fileContent>
+<commitMessage>feat: criar dados-clientes.json com dois clientes fictícios</commitMessage>
+<description>Arquivo JSON contendo dados fictícios de dois clientes para teste do sistema PICPAC</description>
+</sendChangeToContextManager>
+
+## ✅ Arquivo `dados-clientes.json` Criado e Enviado!
+
+### **📋 Dados dos Clientes Fictícios:**
+
+**Cliente 1 - Pedro Almeida Silva**
+- ID: CLI-001
+- CPF: 111.222.333-44
+- Email: pedro.almeida@exemplo.com
+- Local: São Paulo/SP
+
+**Cliente 2 - Ana Carolina Ferreira**
+- ID: CLI-002  
+- CPF: 555.666.777-88
+- Email: ana.ferreira@exemplo.com
+- Local: Belo Horizonte/MG
+
+### **🚀 Status:**
+- ✅ Arquivo JSON criado
+- ✅ Enviado ao Context Manager
+- ⏳ Processamento do commit
+- ⏳ Push para o GitHub
+
+O arquivo será disponibilizado em:
+https://github.com/AndreLeme32/picpac-context-manager/blob/main/dados-clientes.json
