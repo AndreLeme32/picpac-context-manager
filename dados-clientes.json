@@ -1,91 +1,32 @@
-Vou editar o arquivo `dados-clientes.json` adicionando um terceiro cliente fictício.
+Vou solicitar ao Context Manager a exclusão do arquivo `dados-clientes.json` do GitHub.
 
 <sendChangeToContextManager>
 <filePath>dados-clientes.json</filePath>
-<fileContent>{
-  "clientes": [
-    {
-      "id": "CLI-001",
-      "nome": "Pedro Almeida Silva",
-      "cpf": "111.222.333-44",
-      "email": "pedro.almeida@exemplo.com",
-      "telefone": "(11) 91234-5678",
-      "endereco": {
-        "rua": "Rua dos Pinheiros",
-        "numero": "250",
-        "bairro": "Vila Nova",
-        "cidade": "São Paulo",
-        "estado": "SP",
-        "cep": "04567-890"
-      },
-      "dataCadastro": "2024-01-14",
-      "status": "ativo"
-    },
-    {
-      "id": "CLI-002",
-      "nome": "Ana Carolina Ferreira",
-      "cpf": "555.666.777-88",
-      "email": "ana.ferreira@exemplo.com",
-      "telefone": "(31) 99876-5432",
-      "endereco": {
-        "rua": "Avenida Brasil",
-        "numero": "1500",
-        "bairro": "Funcionários",
-        "cidade": "Belo Horizonte",
-        "estado": "MG",
-        "cep": "30140-000"
-      },
-      "dataCadastro": "2024-01-15",
-      "status": "ativo"
-    },
-    {
-      "id": "CLI-003",
-      "nome": "Roberto Carlos Mendes",
-      "cpf": "999.888.777-66",
-      "email": "roberto.mendes@exemplo.com",
-      "telefone": "(41) 98765-1234",
-      "endereco": {
-        "rua": "Rua das Araucárias",
-        "numero": "789",
-        "bairro": "Batel",
-        "cidade": "Curitiba",
-        "estado": "PR",
-        "cep": "80420-000"
-      },
-      "dataCadastro": "2024-01-16",
-      "status": "ativo"
-    }
-  ]
-}</fileContent>
-<commitMessage>update: adicionar terceiro cliente ao dados-clientes.json</commitMessage>
-<description>Atualização do arquivo dados-clientes.json adicionando um terceiro cliente fictício (Roberto Carlos Mendes) mantendo os dois clientes existentes</description>
+<fileContent>[DELETE]</fileContent>
+<commitMessage>remove: deletar arquivo dados-clientes.json</commitMessage>
+<description>Remoção do arquivo dados-clientes.json do repositório conforme solicitado</description>
 </sendChangeToContextManager>
 
-## ✅ Arquivo `dados-clientes.json` Atualizado!
+## 🗑️ Solicitação de Exclusão Enviada!
 
-### **📝 Alteração Realizada:**
+### **📋 Detalhes da Operação:**
 
-**Novo cliente adicionado (Cliente 3):**
-- **Nome:** Roberto Carlos Mendes
-- **ID:** CLI-003
-- **CPF:** 999.888.777-66
-- **Email:** roberto.mendes@exemplo.com
-- **Telefone:** (41) 98765-1234
-- **Localização:** Curitiba/PR
-- **Data de Cadastro:** 2024-01-16
-- **Status:** Ativo
+- **Arquivo a ser removido:** `dados-clientes.json`
+- **Ação:** DELETE (exclusão)
+- **Commit message:** "remove: deletar arquivo dados-clientes.json"
 
-### **📊 Resumo do Arquivo:**
-- **Total de clientes:** 3 (anteriormente 2)
-- **Clientes mantidos:** Pedro Almeida Silva e Ana Carolina Ferreira
-- **Cliente adicionado:** Roberto Carlos Mendes
+### **🔄 Processo de Exclusão:**
+1. ✅ Comando de exclusão enviado ao Context Manager
+2. ⏳ Context Manager processando a remoção
+3. ⏳ Execução do `git rm dados-clientes.json`
+4. ⏳ Commit da remoção
+5. ⏳ Push para o GitHub
 
-### **🚀 Status:**
-- ✅ Arquivo editado com sucesso
-- ✅ Terceiro cliente adicionado
-- ✅ Enviado ao Context Manager
-- ⏳ Commit sendo processado
-- ⏳ Push para o GitHub
+### **📍 Como Verificar:**
+O arquivo deve ser removido do repositório em breve. Você pode confirmar a exclusão em:
+- **Lista de arquivos:** https://github.com/AndreLeme32/picpac-context-manager
+- **Último commit:** https://github.com/AndreLeme32/picpac-context-manager/commits/main
 
-O arquivo atualizado estará disponível em:
-https://github.com/AndreLeme32/picpac-context-manager/blob/main/dados-clientes.json
+O comando `[DELETE]` instrui o Context Manager a remover o arquivo ao invés de atualizá-lo.
+
+Me avise quando verificar se o arquivo foi removido com sucesso do GitHub!
