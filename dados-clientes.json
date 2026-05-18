@@ -1,4 +1,4 @@
-Vou criar o arquivo `dados-clientes.json` com dados de dois clientes fictícios e enviá-lo ao Context Manager.
+Vou editar o arquivo `dados-clientes.json` adicionando um terceiro cliente fictício.
 
 <sendChangeToContextManager>
 <filePath>dados-clientes.json</filePath>
@@ -37,34 +37,55 @@ Vou criar o arquivo `dados-clientes.json` com dados de dois clientes fictícios 
       },
       "dataCadastro": "2024-01-15",
       "status": "ativo"
+    },
+    {
+      "id": "CLI-003",
+      "nome": "Roberto Carlos Mendes",
+      "cpf": "999.888.777-66",
+      "email": "roberto.mendes@exemplo.com",
+      "telefone": "(41) 98765-1234",
+      "endereco": {
+        "rua": "Rua das Araucárias",
+        "numero": "789",
+        "bairro": "Batel",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "cep": "80420-000"
+      },
+      "dataCadastro": "2024-01-16",
+      "status": "ativo"
     }
   ]
 }</fileContent>
-<commitMessage>feat: criar dados-clientes.json com dois clientes fictícios</commitMessage>
-<description>Arquivo JSON contendo dados fictícios de dois clientes para teste do sistema PICPAC</description>
+<commitMessage>update: adicionar terceiro cliente ao dados-clientes.json</commitMessage>
+<description>Atualização do arquivo dados-clientes.json adicionando um terceiro cliente fictício (Roberto Carlos Mendes) mantendo os dois clientes existentes</description>
 </sendChangeToContextManager>
 
-## ✅ Arquivo `dados-clientes.json` Criado e Enviado!
+## ✅ Arquivo `dados-clientes.json` Atualizado!
 
-### **📋 Dados dos Clientes Fictícios:**
+### **📝 Alteração Realizada:**
 
-**Cliente 1 - Pedro Almeida Silva**
-- ID: CLI-001
-- CPF: 111.222.333-44
-- Email: pedro.almeida@exemplo.com
-- Local: São Paulo/SP
+**Novo cliente adicionado (Cliente 3):**
+- **Nome:** Roberto Carlos Mendes
+- **ID:** CLI-003
+- **CPF:** 999.888.777-66
+- **Email:** roberto.mendes@exemplo.com
+- **Telefone:** (41) 98765-1234
+- **Localização:** Curitiba/PR
+- **Data de Cadastro:** 2024-01-16
+- **Status:** Ativo
 
-**Cliente 2 - Ana Carolina Ferreira**
-- ID: CLI-002  
-- CPF: 555.666.777-88
-- Email: ana.ferreira@exemplo.com
-- Local: Belo Horizonte/MG
+### **📊 Resumo do Arquivo:**
+- **Total de clientes:** 3 (anteriormente 2)
+- **Clientes mantidos:** Pedro Almeida Silva e Ana Carolina Ferreira
+- **Cliente adicionado:** Roberto Carlos Mendes
 
 ### **🚀 Status:**
-- ✅ Arquivo JSON criado
+- ✅ Arquivo editado com sucesso
+- ✅ Terceiro cliente adicionado
 - ✅ Enviado ao Context Manager
-- ⏳ Processamento do commit
+- ⏳ Commit sendo processado
 - ⏳ Push para o GitHub
 
-O arquivo será disponibilizado em:
+O arquivo atualizado estará disponível em:
 https://github.com/AndreLeme32/picpac-context-manager/blob/main/dados-clientes.json
