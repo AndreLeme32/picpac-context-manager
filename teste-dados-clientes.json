@@ -33,6 +33,23 @@
       },
       "dataCadastro": "2024-01-16",
       "status": "ativo"
+    },
+    {
+      "id": "TEST-003",
+      "nome": "Ricardo Almeida Torres",
+      "cpf": "456.789.123-45",
+      "email": "ricardo.torres@teste.com",
+      "telefone": "(71) 93333-4444",
+      "endereco": {
+        "rua": "Avenida Oceânica",
+        "numero": "2000",
+        "bairro": "Barra",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "40140-000"
+      },
+      "dataCadastro": "2024-01-16",
+      "status": "ativo"
     }
   ]
 }
