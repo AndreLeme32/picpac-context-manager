@@ -1,0 +1,18 @@
+Vou enviar novamente o comando para excluir o arquivo `dados-clientes.json` ao Context Manager.
+
+<sendChangeToContextManager>
+<filePath>dados-clientes.json</filePath>
+<fileContent>[DELETE]</fileContent>
+<commitMessage>remove: deletar arquivo dados-clientes.json</commitMessage>
+<description>Remover arquivo dados-clientes.json do repositório</description>
+</sendChangeToContextManager>
+
+## 🗑️ Comando de Exclusão Enviado!
+
+- **Arquivo:** dados-clientes.json
+- **Ação:** [DELETE]
+- **Status:** ⏳ Processando
+
+Verifique em: https://github.com/AndreLeme32/picpac-context-manager
+
+Conseguiu excluir o arquivo desta vez?
