@@ -32,7 +32,23 @@ Data de Cadastro: 15/01/2024
 Status: Ativo
 Plano: Básico
 
+CLIENTE 3:
+----------
+Nome: Roberto Alves Costa
+CPF: 555.444.333-22
+Data de Nascimento: 08/11/1978
+Email: roberto.costa@email.com
+Telefone: (31) 96543-2109
+Endereço: Rua dos Pinheiros, 789
+Bairro: Funcionários
+Cidade: Belo Horizonte - MG
+CEP: 30140-000
+Data de Cadastro: 16/01/2024
+Status: Ativo
+Plano: Gold
+
 ====================================
 Arquivo gerado em: 16/01/2024
-Total de clientes: 2
+Última atualização: 16/01/2024
+Total de clientes: 3
 ====================================
